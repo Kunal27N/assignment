@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    height: 300px;
+    width: 100px;
+    
+    background-color: rgba(0, 0, 0, 0.704);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: rgb(85, 100, 215);
+}
+.main{
+    margin-left: 120px;
+    
+}
+img{
+    height: 200px;
+
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
